@@ -1,0 +1,93 @@
+.navbar {
+  background-color: #2096bd !important;
+}
+::placeholder{
+  color: white !important;
+}
+::-webkit-scrollbar{
+  width: 0px;
+}
+.navbar-brand {
+  color: white;
+}
+
+.material-symbols-outlined {
+  color: #1e1e95;
+  font-weight: bolder;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.parent {
+  height: 84.6vh;
+  background-color: #09597a;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  overflow-y: auto;
+}
+
+.listitem {
+  overflow-y: auto;
+}
+
+.form-control {
+  background-color: #09597a;
+  color: white !important;
+}
+
+.form-control:focus {
+  background-color: #09597a;
+  color: white !important;
+  box-shadow: 0 0.25rem 0 0 #0d6efd40;
+}
+.itemlists{
+    background-color: #0b5dff;
+    color: white;
+    width: 90%;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.edit-btn{
+  color: lime;
+}
+
+footer{
+  background-color: #2096bd;
+}
+.delete{
+  color: red !important;
+  font-weight: normal;
+}
+.form-check{
+    display: block !important;
+    min-height: 0 !important;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width:1000px) {
+  .content{
+    width: 85% !important;
+  }
+  .inp-div{
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width:600px) {
+  .content{
+    width: 90% !important;
+  }
+  .itemlists{
+    width: 80% !important;
+    display: flex !important;
+    align-items: center !important;
+    padding-right: 0.5rem!important;
+    padding-left: 0.5rem!important;
+    font-size: 15px!important;
+  }
+}
